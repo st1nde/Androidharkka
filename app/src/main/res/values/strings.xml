@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Androidharkka</string>
+    <string name="hello">Hello</string>
+    <string name="start">Start</string>
+    <string name="game">Game</string>
+    <string name="demo">Find Satan</string>
+    <string name="filler"> </string>
+    <string name="reload">Reload</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="Highscore">High score</string>
+    <string name="text_apm_on">Airplane mode on</string>
+    <string name="text_apm_off">Airplane mode off</string>
+    <string name="outline_button">button</string>
+    <string name="timerEnd">Done</string>
+    <string name="search">Search</string>
+    <string name="valuuttaTeksti">Euroturistin valuuttamuunnin</string>
+    <string name="label">Syötä määrä ja valitse valuutta</string>
+    <string name="sek">SEK</string>
+    <string name="nok">NOK</string>
+    <string name="dkk">DKK</string>
+    <string name="tentti">Tentti</string>
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tämä on nimi</string>
+    <string name="hello">Terse</string>
+    <string name="start">Aloita</string>
+    <string name="game">Peli</string>
+    <string name="demo">Etsi saatana</string>
+    <string name="filler"> </string>
+    <string name="reload">Päivitä</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_home">Koti</string>
+    <string name="title_dashboard">Kojelauta</string>
+    <string name="title_notifications">Ilmoitukset</string>
+    <string name="Highscore">Paras tulos</string>
+    <string name="text_apm_on">Lentokonetila päällä</string>
+    <string name="text_apm_off">Lentokonetila pois päältä</string>
+    <string name="outline_button">nappi</string>
+    <string name="timerEnd">Loppu</string>
+    <string name="search">Hae</string>
+    <string name="valuuttaTeksti">Euroturistin valuuttamuunnin</string>
+    <string name="label">Syötä määrä ja valitse valuutta</string>
+    <string name="sek">SEK</string>
+    <string name="nok">NOK</string>
+    <string name="dkk">DKK</string>
+    <string name="tentti">Tentti</string>
+</resources>

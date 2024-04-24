@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameActivity">
+
+    <TextView
+        android:id="@+id/demo"
+        android:layout_width="231dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="60dp"
+        android:text="@string/demo"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="181dp"
+        android:layout_height="172dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="220dp"
+        android:contentDescription="@string/filler"
+        android:scaleType="fitCenter"
+        android:src="@drawable/pentagram"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="181dp"
+        android:layout_height="172dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="16dp"
+        android:contentDescription="@string/filler"
+        android:scaleType="fitCenter"
+        android:src="@drawable/pentagram"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton4" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="181dp"
+        android:layout_height="172dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="52dp"
+        android:contentDescription="@string/filler"
+        android:scaleType="fitCenter"
+        android:src="@drawable/pentagram"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton1" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="181dp"
+        android:layout_height="172dp"
+        android:layout_marginTop="220dp"
+        android:contentDescription="@string/filler"
+        android:scaleType="fitCenter"
+        android:src="@drawable/pentagram"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.578"
+        app:layout_constraintStart_toEndOf="@+id/imageButton1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/khorne"
+        android:layout_width="224dp"
+        android:layout_height="242dp"
+        android:contentDescription="@string/filler"
+        android:src="@drawable/khorne"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/demo"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="16dp"
+        android:layout_marginBottom="28dp"
+        android:contentDescription="@string/filler"
+        android:text="@string/reload"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.836"
+        app:layout_constraintStart_toStartOf="parent"
+        app:rippleColor="@color/black" />
+
+    <TextView
+        android:id="@+id/hScoreText"
+        android:layout_width="86dp"
+        android:layout_height="26dp"
+        android:layout_marginBottom="60dp"
+        android:contentDescription="@string/filler"
+        android:text="@string/Highscore"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/hScore"
+        android:layout_width="77dp"
+        android:layout_height="21dp"
+        android:layout_marginBottom="64dp"
+        android:contentDescription="@string/filler"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/hScoreText" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
